@@ -42,7 +42,7 @@ export default {
         },
         open: {
             type: Boolean,
-            default: true 
+            default: false 
         },
         onClick: Function
     },

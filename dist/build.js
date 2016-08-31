@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["VueComponentsName"] = factory();
+		exports["vcDropdown"] = factory();
 	else
-		root["VueComponentsName"] = factory();
+		root["vcDropdown"] = factory();
 })(this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -508,7 +508,7 @@ exports.default = {
         },
         open: {
             type: Boolean,
-            default: true
+            default: false
         },
         onClick: Function
     },

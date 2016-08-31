@@ -2,9 +2,9 @@ import Vue from 'vue'
 import vcDropdown from '../dist/build.js'
 
 new Vue({
-	el: '#app',
-	data () {
-		return {
+    el: '#app',
+    data () {
+        return {
             bools: {
                 'true': true,
                 'false': false
@@ -20,9 +20,9 @@ new Vue({
                 alert('点击回调' + index)
                 console.log('点击回调', key, value, index)
             }
-		}
-	},
-	components: {
+        }
+    },
+    components: {
         vcDropdown
-	}
+    }
 })
