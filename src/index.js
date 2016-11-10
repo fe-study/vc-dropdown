@@ -1,3 +1,4 @@
-import vcDropdown from './components/Dropdown'
+import vcDropdown from './Dropdown'
 
-module.exports = vcDropdown
+export default vcDropdown
+export { vcDropdown }

@@ -25,6 +25,7 @@
 
 <script>
 export default {
+    name: 'vc-dropdown',
     props: {
         label: {
             type: String,

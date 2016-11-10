@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import vcDropdown from '../dist/build.js'
+import vcDropdown from '../src/Dropdown.vue'
 
 new Vue({
     el: '#app',
